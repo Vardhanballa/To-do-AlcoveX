@@ -11,20 +11,20 @@ const App = () => {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    // Fetch projects from the backend API
+    
     axios.get('http://localhost:5000/projects/all')
       .then(response => setProjects(response.data))
       .catch(error => console.error('Error fetching projects:', error));
   }, []);
 
   useEffect(() => {
-    // Fetch tasks for the selected project
+   
     if (selectedProject) {
       axios.get(`http://localhost:5000/tasks/project/${selectedProject.id}`)
         .then(response => setTasks(response.data))
         .catch(error => console.error('Error fetching tasks:', error));
     } else {
-      setTasks([]); // Clear tasks if no project is selected
+      setTasks([]);
     }
   }, [selectedProject]);
 
