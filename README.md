@@ -2,7 +2,7 @@
 # Project Description
 A task management application that helps users organize their projects and tasks efficiently. Whether you're working on personal projects, collaborating with a team, or managing your daily to-dos, It provides a user-friendly interface to keep everything in order.
 
-## Screenshots
+## Screenshot
 
 ## Features
 Project Management: Create and manage multiple projects effortlessly.
