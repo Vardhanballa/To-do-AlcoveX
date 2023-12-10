@@ -7,7 +7,7 @@ const router = express.Router();
 router.post('/add', async (req, res) => {
   try {
     const { title, startDate, deadline, status } = req.body;
-    const projectId = req.body.projectId; // Assuming projectId is sent in the request body
+    const projectId = req.body.projectId; 
 
     console.log('Received projectId:', projectId);
 
