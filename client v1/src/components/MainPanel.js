@@ -1,8 +1,8 @@
 // src/components/MainPanel.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './MainPanel.css'; // Import the stylesheet
-import Modal from 'react-modal'; // Import the modal library
+import './MainPanel.css';
+import Modal from 'react-modal'; 
 
 const MainPanel = ({ projectId, projectTitle, onProjectTitleClick }) => {
   const [tasks, setTasks] = useState([]);
@@ -47,7 +47,7 @@ const MainPanel = ({ projectId, projectTitle, onProjectTitleClick }) => {
           deadline: '',
           status: 'To Do',
         });
-        setIsAddingTask(false); // Close the prompt after adding task
+        setIsAddingTask(false); 
       } else {
         console.error('Project ID is missing.');
       }
@@ -250,9 +250,6 @@ const MainPanel = ({ projectId, projectTitle, onProjectTitleClick }) => {
           </div>
         ))}
         </div>
-
-        {/* Add other columns here... */}
-
       </div>
 
       {editTask && (
@@ -262,7 +259,6 @@ const MainPanel = ({ projectId, projectTitle, onProjectTitleClick }) => {
           contentLabel="Edit Task Modal"
           className="edit-modal center"
         >
-          {/* ... (existing code) */}
           <h2>Edit Task</h2>
            <div>
              <label>Title:</label>
