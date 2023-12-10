@@ -1,0 +1,28 @@
+/* src/components/NavBar.css */
+  .project-title:hover {
+    cursor: pointer;
+  }
+  
+  .project-title:hover h1 {
+    cursor: pointer;
+  }
+  .list-group-item {
+    cursor: pointer;
+    padding: 0.75rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa; /* Change this color as needed */
+  }
+  
+  ul.list-group li.list-group-item.active {
+    background-color: #007bff; /* Change this color as needed */
+    color: #fff; /* Change this color as needed */
+  }
+  
+  /* Add styles for active state on hover */
+  ul.list-group li.list-group-item.active:hover {
+    background-color: #007bff; /* Change this color as needed */
+    color: #fff; /* Change this color as needed */
+  }

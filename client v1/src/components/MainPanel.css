@@ -1,0 +1,197 @@
+ .main-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title {
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.add-new-task {
+  margin-bottom: 20px;
+}
+
+.add-new-task h3 {
+  cursor: pointer;
+  margin: 0;
+  font-size: 18px;
+}
+
+.add-new-task-prompt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add-new-task-prompt input,
+.add-new-task-prompt select,
+.add-new-task-prompt button {
+  margin-right: 10px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-around; /* Adjusted from space-between */
+  width: 100%;
+}
+
+.column {
+  flex: 1; /* Adjusted width */
+  margin: 0 10px; /* Add margin for spacing between columns */
+}
+
+.column-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  /* Add any additional styling for an eye-catching design */
+}
+
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.task button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.task button.edit {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.task button.delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+.cancel {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+.column-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold; /* Add bold styling */
+  text-align: center; /* Center-align the text */
+}
+.columns-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.modal.center {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.task-details {
+  flex-grow: 1;
+}
+
+.task-details div {
+  margin-bottom: 5px;
+}
+
+.task-details div strong {
+  display: block;
+}
+
+.task-details div span {
+  font-weight: bold;
+}
+
+.task-buttons {
+  display: flex;
+}
+
+.task button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.task button.edit {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.task button.delete {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+.add-new-task h3 {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-new-task h3:hover {
+  background-color: #45a049;
+}
+
+.add-new-task-prompt input {
+  margin-top: 10px; 
+  width: 250px;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.add-new-task-prompt select {
+  margin-left: 10px; 
+}
