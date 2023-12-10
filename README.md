@@ -11,15 +11,15 @@ A task management application that helps users organize their projects and tasks
 
 
 ## Features
-Project Management: Create and manage multiple projects effortlessly.
+- Project Management: Create and manage multiple projects effortlessly.
 
-Task Tracking: Add tasks with details such as title, start date, deadline, and status.
+- Task Tracking: Add tasks with details such as title, start date, deadline, and status.
 
-Task Status: Categorize tasks as "To Do," "In Progress," "In Review," and "Completed."
+- Task Status: Categorize tasks as "To Do," "In Progress," "In Review," and "Completed."
 
-Edit and Delete: Easily edit task details or remove tasks as needed.
+- Edit and Delete: Easily edit task details or remove tasks as needed.
 
-User-Friendly Interface: Intuitive design for a seamless user experience.
+- User-Friendly Interface: Intuitive design for a seamless user experience.
 
 ## Technologies Used
 React: A JavaScript library for building user interfaces.
